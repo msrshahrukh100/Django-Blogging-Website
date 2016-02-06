@@ -1,0 +1,19 @@
+<!--Doctype html-->
+<html>
+<title>Django Blogging!</title>
+<body>
+
+<h1>{{ title }} is Working</h1>
+/posts/{{ obj.id }}/
+
+{% for obj in object_list %}
+<a href="{{ obj.get_absolute_url }}" >{{ obj.title }}</a><br>
+{{ obj.content }}<br>
+{{ obj.updated }}<br>
+{{ obj.timestamp }}<br>
+
+
+{% endfor %}
+</body>
+
+</html>
