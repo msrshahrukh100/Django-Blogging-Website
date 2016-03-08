@@ -1,9 +1,9 @@
 # Django-Blogging-Website
 
 urls :
-posts/
-posts/create
-posts/<id>
-posts/<id>/edit
-posts/<id>/delete
+<p>posts/</p>
+<p>posts/create</p>
+<p>posts/<id></p>
+<p>posts/<id>/edit</p>
+<p>posts/<id>/delete</p>
 
